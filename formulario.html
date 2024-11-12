@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+    <h1>Suscríbase</h1>
+
+    
+<body>
+    <form action="/submit">
+        <label for="nombre">Nombres</label>
+              <input type="text" id="nombre" name="nombre" required>
+
+
+
+                 <label for="apellido">Apellidos</label>
+                    <input type="text" id="apellido" name="apellido" required>
+
+
+
+                         <label for="edad">Edad</label>
+                           <input type="text" id="edad" name="edad" required>
+
+
+
+                                <label for="email">Correo Electrónico</label>
+                                  <input type="text" id="email" name="Correo Electrónico" required>
+
+
+        <label for="Género">Género</label>
+     <input type="radio" id="masculino" name="Género" value="Masculino">
+     <label for="masculino">Masculino</label>
+     <input type="radio" id="femenino" name="Género" value="Femenino">
+     <label for="femenino">Femenino</label>
+     <input type="radio" id="no especifica" name="Género" value="No Especifica">
+     <label for="no especifica">No Especifica</label>
+     <label for="hobbies">¿Qué le interesa?</label>
+     <input type="checkbox" id="Videojuegos" name="hobbies" value="Videojuegos">
+     <label for="Videojuegos">Videojuegos</label>
+     <input type="checkbox" id="Películas y Series" name="hobbies" value="Películas y Series">
+     <label for="Películas y Series">Películas y Series</label>
+     <input type="checkbox" id="Deportes" name="hobbies" value="Deportes">
+     <label for="Deportes">Deportes</label>
+     <input type="checkbox" id="Música" name="hobbies" value="Música">
+     <label for="Música">Música</label>
+     <label for="password">Introduzca Contraseña</label>
+     <input type="password" name="password" id="password">
+     <label for="password">Vuelva a Introducir Contraseña</label>
+     <input type="password" name="password" id="password">
+     <label for="descripción">Descríbase brevemente</label>
+     <textarea name="Descríbase brevemente" id="descripción" rows="10" cols="50" maxlength="300"></textarea>
+     <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
